@@ -1,5 +1,5 @@
 # Time-Series-Models
-This repository contains sample implementations of several popular time series methods, including, but not limited to, univariate, multivariate, Machine Learning and ARCH style volatility models. All model implementations use the quantmod package to obtain time series data from Yahoo Finance.
+This repository contains sample implementations of several popular time series models, including, but not limited to, univariate, multivariate, Machine Learning, and ARCH style volatility models. All model implementations use the quantmod package to obtain time series data from Yahoo Finance.
 
 ## Neural-Network models
 This implementation uses the neuralnet() function of the neuralnet package to generate the model and its parameters.
