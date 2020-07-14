@@ -4,8 +4,8 @@
 ##
 ## This script is made to demonstrate an example implementation of a 3-2-1 feed forward time-series based
 ## Neural Network model using the 1, 2, and 3 period lagged series as inputs for modeling the contemporaneuos
-## series. Visual representation of the model is easily plotted, and model performance measures (single period
-## comparison, SSE, and MSE) are also provided.
+## series, essentially making this an autoregressive (AR) neural net. Visual representation of the model is easily 
+## plotted, and model performance measures (single period comparison, SSE, and MSE) are also provided.
 ##
 ## Author: Justin Yu, M.S. Financial Engineering, Stevens Institute of Technology
 ## 
