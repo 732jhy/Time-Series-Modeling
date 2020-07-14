@@ -51,8 +51,8 @@ r %>% head %>% print
 
 
 # split into training and testing sets
-train = r['1986-04-07::2017-12-31']
-test = r['2018-01-01::2019-12-31']
+train = r['2000-01-01::2017-12-31'] # 18 years training
+test = r['2018-01-01::2019-12-31'] # 2 years testing
 
 # Train the model on training set
 nn = neuralnet(rt~Lag.1+Lag.2+Lag.3, data=train, hidden=2,linear.output = TRUE, err.fct='sse',act.fct='tanh')
